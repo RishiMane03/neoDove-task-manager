@@ -1,0 +1,39 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem auto;
+    width: 90%;
+
+    li {
+        padding: 1rem;
+        flex: 1;
+
+        button {
+            margin: 5px;
+            padding: 0.5rem;
+            cursor: pointer;
+        }
+    }
+
+    p {
+        font-size: 1rem;
+        padding: 0rem 0.5rem;
+    }
+}
+
+.completed {
+    background-color: lightgreen;
+    color: black;
+}
+
+.goingOn {
+    background-color: rgb(246, 227, 103);
+    color: black;
+}
+
+.needToComplete{
+    background-color: rgb(253, 210, 210);
+    color: black;
+}

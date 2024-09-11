@@ -1,0 +1,56 @@
+.scrollable-list {
+    max-height: 400px; /* Adjust height as needed */
+    overflow-y: scroll;
+    padding: 10px;
+
+    /* Hide scrollbar in WebKit-based browsers (e.g., Chrome, Safari) */
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for Firefox */
+    scrollbar-width: none;
+
+    /* Hide scrollbar for Internet Explorer, Edge */
+    -ms-overflow-style: none;
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(127, 127, 174);
+    padding: 0.5rem;
+    color: white;
+
+    li {
+        flex: 1;
+        padding: 0rem 1rem;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+    }
+}
+
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    padding: 0.5rem;
+    color: white;
+
+    select{
+        width: 30%;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: rgb(187, 187, 211);
+        outline: none;
+        border: none;
+    }
+}
+    
