@@ -3,7 +3,7 @@ import axios from 'axios';
 import history from '../history';
 import toast from 'react-hot-toast';
 
-const url = `http://localhost:4000`
+const url = `https://neodove-task-manager-backend.onrender.com`
 const initialUser = localStorage.getItem('auth')
 	? JSON.parse(localStorage.getItem('auth'))
 	: null;
