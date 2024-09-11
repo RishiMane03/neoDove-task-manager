@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 
-const url = `http://localhost:4000`
+const url = `https://neodove-task-manager-backend.onrender.com`
 const initalTask = localStorage.getItem('task')
 	? JSON.parse(localStorage.getItem('task'))
 	: null;
